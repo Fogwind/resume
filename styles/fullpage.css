@@ -1,0 +1,79 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	height: 100%;
+}
+.fullpage-container{
+	position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+.fullpage-pagebox{
+    height: 100%;
+    position:relative;
+}
+
+.fullpage-page-vertical{
+    height: 100%;
+    position:relative;
+	overflow:hidden;
+}
+
+#fullpage-page1{
+    background-color: #5599FF;
+}
+#fullpage-page2{
+    background-color: #5599FF;
+}
+#fullpage-page3{
+    background-color: #5599FF;
+}
+#fullpage-page4{
+    background-color: #5599FF;
+}
+
+
+
+/***********分页样式************/
+.fullpage-pagination{
+	position:fixed;
+	left:17px;
+	top:50%;
+	margin:auto;
+	list-style: none;
+
+}
+.fullpage-pagination-item{
+    width:20px;
+    height:15px;
+    margin:5px;
+}
+.fullpage-pagination-item a{
+	display:block;
+	color: black;
+	text-decoration: none;
+
+	position: relative;
+	height:100%;
+	width:100%;
+}
+.fullpage-pagination-item:hover a .fullpage-point{
+	background-color: black;
+}
+.fullpage-point{
+	position:absolute;
+	width:8px;
+	height:8px;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	margin: auto;
+	border:1px solid black;
+	border-radius: 4.5px;
+}
+.fullpage-point.fullpage-active{
+	background-color: black;
+}

@@ -1,0 +1,132 @@
+/*****************第一屏样式****************/
+.personal-middle{
+	position:absolute;
+	top:50%;
+	left:0;
+	right:0;
+	transform:translateY(-50%);
+}
+.personal-photo-box{
+	margin:auto;
+	border-radius:50% 50%;
+	text-align:center;
+}
+.personal-photo-box img{
+	padding: 9px;
+    background-color: #99BBFF;
+    border: 1px solid #99BBFF;
+	border-radius:50%;
+}
+.personal-h1{
+	text-align:center;
+	color:#fff;
+	text-shadow: 0.5px 1px #5599FF, 1px 2px #aee2d9;
+	
+	
+}
+.personal-h2{
+	text-align:center;
+	color: #000;
+	font-size:20px;
+	font-weight:bold;
+}
+.personal-blog-link{
+	color:#fff;
+}
+.personal-blog-link:hover{
+	color:rgb(30,30,30);
+}
+.personal-call-list{
+	list-style:none;
+	text-align:center;
+	font-size:16px;
+	color:rgb(30,30,30);
+}
+.personal-list-item{
+	margin-bottom:10px;
+}
+.personal-list-item:last-child{
+	margin-bottom:0px;
+}
+.personal-quote{
+	text-align:center;
+	margin-top:20px;
+	font-size:20px;
+}
+/*****************第二屏样式****************/
+.personal-tech-list{
+	list-style:none;
+}
+.personal-tech-list-item{
+	background-color:#ADD8E6;
+	position:relative;
+}
+.personal-tech-head{
+	border-left-width:5px;
+	border-left-color:#1E90FF;
+	border-left-style:solid;
+	height:40px;
+	line-height:40px;
+	color:#1E90FF;
+	font-size:20px;
+	padding-left:10px;
+}
+#personal-tech-html{
+	width:85%;
+}
+#personal-tech-css{
+	width:80%;
+}
+#personal-tech-js{
+	width:70%;
+}
+#personal-tech-jq{
+	width:60%;
+}
+#personal-tech-bp{
+	width:65%;
+}
+.personal-tech-describe-box{
+	position:absolute;
+	top:12px;
+	left:100px;
+	z-index:100;
+	padding:10px;
+	background-color:#fff;
+	border:1px solid #DCDCDC;
+	border-radius:5px;
+	display:none;
+}
+.personal-tech-describe{
+	list-style-position:inside;
+}
+.personal-tech-list-item:hover .personal-tech-describe-box{
+	display:block;
+}
+/*****************第三屏样式***************/
+.test{
+	border:1px solid black;
+}
+.personal-works-thumbnail{
+	position:relative;
+	overflow:hidden;
+}
+.personal-works-describe{
+	position:absolute;
+	background-color:rgba(0,0,0,0.7);
+	bottom:-100%;
+	left:0;
+	height:100%;
+}
+.personal-works-describe p,.personal-works-describe h3{
+	color:#fff;
+}
+.prsonal-works-link{
+	position:absolute;
+	bottom:10px;
+}
+
+
+
+
+
